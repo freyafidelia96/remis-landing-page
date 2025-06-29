@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #27346d;
+  --secondary-color: #031a57;
+}
+
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-self: center;
+  width: 100%;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#app {
+  position: relative;
+}
+
+
+/* 1. Stop runaway images / SVGs */
+
+/* 2. Keep everything in the box model */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* 3. Add safe overflow rule while you debug
+   (remove after you fix the real cause) */
+
+
