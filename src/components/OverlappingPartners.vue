@@ -11,9 +11,7 @@
   </section>
 </template>
 
-<script>
-
-</script>
+<script></script>
 
 <style scoped>
 #partners {
@@ -27,7 +25,6 @@
   border-radius: 25px;
   padding-block-start: 20px;
   padding-block-end: 10px;
-
 }
 
 #partners p {
@@ -47,9 +44,10 @@
   margin-bottom: 0;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 12px;
 }
 
-#nnpc {
+/* #nnpc {
   width: 92px;
   height: 92px;
 }
@@ -72,8 +70,7 @@
 #eterna {
   width: 90px;
   height: 90px;
-}
-
+} */
 
 img,
 svg {
@@ -81,6 +78,32 @@ svg {
   height: auto;
 }
 
+@media (min-width: 1024px) {
+  #nnpc {
+    width: 92px;
+    height: 92px;
+  }
+
+  #heyden {
+    width: 100px;
+    height: 60px;
+  }
+
+  #bovas {
+    width: 90px;
+    height: 90px;
+  }
+
+  #rainoil {
+    width: 92px;
+    height: 70px;
+  }
+
+  #eterna {
+    width: 90px;
+    height: 90px;
+  }
+}
 
 @media (max-width: 1024px) {
   .logos {
@@ -122,7 +145,6 @@ svg {
     row-gap: 5px;
     justify-content: center;
     align-items: center;
-
   }
 
   #partners {
@@ -146,13 +168,10 @@ svg {
     justify-self: center;
   }
 
-
-
   .logos img:last-child {
     justify-self: center;
   }
 }
-
 
 @media (max-width: 360px) {
   #partners {
