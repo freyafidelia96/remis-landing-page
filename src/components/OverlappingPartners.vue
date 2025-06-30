@@ -72,6 +72,8 @@
   height: 90px;
 } */
 
+/* KK */
+
 img,
 svg {
   max-width: 100%;
