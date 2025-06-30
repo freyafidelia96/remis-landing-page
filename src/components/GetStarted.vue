@@ -11,7 +11,7 @@
 
     <h3 id="why">Why Remis?</h3>
     <div class="why-remis">
-      <div class="cash-handling">
+      <div class="cash-handling" data-aos="fade-in">
         <img src="../assets/images/cash.png" alt="cash" />
         <div class="remis">
           <p>Eliminate Cash Handling</p>
@@ -19,7 +19,7 @@
             traceable.</small>
         </div>
       </div>
-      <div class="monitoring">
+      <div class="monitoring" data-aos="fade-in">
         <img src="../assets/images/monitoring.png" alt="monitoring" />
         <div class="remis">
           <p>Real-Time Monitoring</p>
@@ -27,7 +27,7 @@
             happens.</small>
         </div>
       </div>
-      <div class="oversight">
+      <div class="oversight" data-aos="fade-in">
         <img src="../assets/images/oversight.png" alt="oversight" />
         <div class="remis">
           <p>Powerful Oversight</p>
@@ -35,7 +35,7 @@
             transaction on the dashboard.</small>
         </div>
       </div>
-      <div class="friendly">
+      <div class="friendly" data-aos="fade-in">
         <img src="../assets/images/friendly.png" alt="friendly" />
         <div class="remis">
           <p>User-Friendly System</p>
@@ -43,7 +43,7 @@
             authorized stations.</small>
         </div>
       </div>
-      <div class="reconcilation">
+      <div class="reconcilation" data-aos="fade-in">
         <img src="../assets/images/reconcilation.png" alt="reconcilation" />
         <div class="remis">
           <p>Instant Reconciliation</p>

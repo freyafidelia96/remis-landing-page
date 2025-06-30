@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section data-aos="fade-up">
     <!-- <div class="stories">
       <div class="card first-item">
         <p>Easy data collation</p>

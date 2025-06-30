@@ -20,16 +20,19 @@
     </nav>
   </header> -->
   <header>
-    <a href="/" id="logo">
+    <a href="https://fleetapp.remis.africa/Login" id="logo">
       <img src="../assets/images/logo.svg" alt="Remis Logo" />
     </a>
-    <div class="controls">
-      <a class="login" href="https://fleetapp.remis.africa/Login" target="_blank">Login</a>
+    <div class="dropdown">
+      <button class="dropbtn">Login</button>
+      <div class="dropdown-content">
+        <a href="https://play.google.com/store/apps/details?id=africa.remis.app" target="_blank">Download on Play
+          Store</a>
+        <a href="https://apps.apple.com/ng/app/remis-africa/id6443777963" target="_blank">Download on App Store</a>
+      </div>
     </div>
   </header>
-
 </template>
-
 
 <style scoped>
 header {
@@ -67,7 +70,7 @@ header {
 }
 
 
-a {
+button {
   text-decoration: none;
   color: var(--primary-color);
   display: flex;
@@ -78,6 +81,50 @@ a {
 #logo {
   width: 50px;
   height: 50px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  border-radius: 25px;
+  background-color: #006bff;
+  color: white !important;
+  padding-inline: 28px;
+  padding-block: 12px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  z-index: 1;
+  margin-top: 8px;
+}
+
+.dropdown-content a {
+  color: var(--primary-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 
@@ -101,7 +148,6 @@ a {
     max-width: 100%;
     height: auto;
   }
-
 
 }
 </style>
