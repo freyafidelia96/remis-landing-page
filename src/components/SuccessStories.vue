@@ -113,7 +113,7 @@ export default {
   justify-content: center;
   align-items: center;
   gap: 120px;
-  margin: 250px auto;
+  margin: 250px auto 10px auto;
   padding-inline: 20px;
 }
 
@@ -130,7 +130,7 @@ export default {
 }
 
 section {
-  padding-block: 150px;
+  padding-block-start: 150px;
   width: 100vw;
 }
 
@@ -306,6 +306,10 @@ section {
 @media (max-width: 540px) {
   .card {
     width: 350px;
+  }
+
+  .take-control {
+    margin: 100px auto 20px auto;
   }
 
   .stories {

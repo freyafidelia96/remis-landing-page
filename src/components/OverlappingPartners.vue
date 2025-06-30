@@ -133,7 +133,7 @@ svg {
 
   img,
   svg {
-    max-width: 60%;
+    max-width: 100%;
     height: auto;
   }
 
@@ -141,7 +141,7 @@ svg {
     font-size: 18px;
   }
 
-  /* .span-2-center {
+  .span-2-center {
     grid-column: 1 / span 2;
     justify-self: center;
   }
@@ -150,7 +150,7 @@ svg {
 
   .logos img:last-child {
     justify-self: center;
-  } */
+  }
 }
 
 
