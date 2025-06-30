@@ -137,11 +137,19 @@ img {
   }
 
   #get-started h2 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+
+  .desPara {
+    font-size: 18px;
+  }
+
+  #why {
+    font-size: 30px;
   }
 
   img {
-    width: 100px;
+    width: 70px;
   }
 
   .why-remis {

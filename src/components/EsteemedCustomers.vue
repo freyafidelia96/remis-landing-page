@@ -63,5 +63,9 @@ img.a-little-larger {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
   }
+
+  .esteemed {
+    font-size: 25px;
+  }
 }
 </style>

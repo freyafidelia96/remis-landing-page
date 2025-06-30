@@ -60,9 +60,15 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 546px) {
   .first {
     width: 85%;
+    font-size: 18px;
   }
+
+  .the-audience h2 {
+    font-size: 30px;
+  }
+
 }
 </style>

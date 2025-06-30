@@ -175,6 +175,18 @@ export default {
     padding-bottom: 10px;
   }
 
+  .card p {
+    font-size: 18px;
+  }
+
+  .card small {
+    font-size: 16px;
+  }
+
+  .second-item small {
+    font-size: 30px;
+  }
+
   .take-control img {
     width: 400px;
   }
