@@ -24,7 +24,7 @@
       <img src="../assets/images/logo.svg" alt="Remis Logo" />
     </a>
     <div class="controls">
-      <button class="login">Login</button>
+      <a class="login" href="https://fleetapp.remis.africa/Login" target="_blank">Login</a>
     </div>
   </header>
 
