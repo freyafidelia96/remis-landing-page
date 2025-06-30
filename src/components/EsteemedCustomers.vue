@@ -36,7 +36,7 @@
   align-items: center;
   justify-self: center;
   column-gap: 10px;
-  margin-top: 80px;
+  margin: 0 auto;
 }
 
 .customers img {
