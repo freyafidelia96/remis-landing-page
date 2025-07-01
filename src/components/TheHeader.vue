@@ -20,11 +20,11 @@
     </nav>
   </header> -->
   <header>
-    <a href="https://fleetapp.remis.africa/Login" id="logo">
-      <img src="../assets/images/logo.svg" alt="Remis Logo" />
+    <a href="https://fleetapp.remis.africa/Login">
+      <img src="../assets/images/logo.svg" alt="Remis Logo" id="logo" />
     </a>
     <div class="dropdown">
-      <button class="dropbtn">Login</button>
+      <button class="dropbtn">Download</button>
       <div class="dropdown-content">
         <a href="https://play.google.com/store/apps/details?id=africa.remis.app" target="_blank">Download on Play
           Store</a>
@@ -46,14 +46,20 @@ header {
   position: fixed;
   z-index: 2;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  padding-block: 10px;
+  padding-block: 30px;
   justify-self: center;
   border-radius: 20px;
   padding-inline-start: 10px;
   padding-inline-end: 60px;
   background-color: white;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-self: center;
 }
 
 
@@ -109,6 +115,7 @@ button {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   z-index: 1;
+  left: -40px;
   margin-top: 8px;
 }
 
