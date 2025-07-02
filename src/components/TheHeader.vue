@@ -144,7 +144,7 @@ button {
     padding-inline-end: 5px;
   }
 
-  .login {
+  .dropbtn {
     padding-inline: 10px;
     padding-block: 8px;
   }

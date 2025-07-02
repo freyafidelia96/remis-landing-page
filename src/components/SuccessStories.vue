@@ -124,7 +124,7 @@ export default {
   align-items: center;
   gap: 120px;
   margin: 250px auto 10px auto;
-  padding-inline: 20px;
+  padding-inline: 30px;
 }
 
 .take-control img {
@@ -184,6 +184,7 @@ a {
   font-size: 16px;
   vertical-align: middle;
   text-decoration: none;
+  width: 30%;
 }
 
 .card {
@@ -210,7 +211,8 @@ a {
 .card small {
   color: var(--primary-color);
   font-size: 22px;
-  margin: 0 0 50px 0;
+  margin: 0 0 40px 0;
+  line-height: 20px;
 }
 
 .first-item {
@@ -338,6 +340,14 @@ a {
   .take-control h2 {
     font-size: 30px;
   }
+
+  a {
+    padding-inline: 10px;
+    padding-block: 10px;
+    font-size: 10px;
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 540px) {
@@ -370,7 +380,10 @@ a {
 
   .take-control h2 {
     width: 100%;
+    line-height: 28px;
   }
+
+
 }
 
 @media (max-width: 435px) {
@@ -395,14 +408,26 @@ a {
   }
 
   .take-control {
-    padding-inline: 20px;
+    padding-inline: 30px;
+  }
+
+  a {
+    padding-inline: 10px;
+    font-size: 10px;
+    width: 70%;
+    margin: 0 auto;
+    padding-block: 10px;
   }
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 378px) {
   .card {
     width: 250px;
+  }
+
+  .h2-app-links h2 {
+    font-size: 20px;
   }
 
   .first-item {
@@ -415,6 +440,14 @@ a {
 
   .take-control img {
     width: 280px;
+  }
+
+  a {
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 10px;
+    width: 70%;
+    margin: 0 auto;
   }
 }
 </style>

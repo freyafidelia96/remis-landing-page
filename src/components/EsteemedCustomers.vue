@@ -31,13 +31,11 @@
 .esteemed {
   font-size: 28px;
   color: var(--secondary-color);
+  text-align: center;
   padding: 20px;
   width: 100vw;
   background-image: url(../assets/images/esteemed.png);
   background-size: cover;
-  height: 60vh;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .esteemed h2 {
@@ -48,9 +46,10 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   width: 60%;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  column-gap: 30px;
+  justify-self: center;
+  column-gap: 10px;
   margin: 0 auto;
 }
 
@@ -79,7 +78,8 @@ img.a-little-larger {
 @media (max-width: 768px) {
   .customers {
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 5px;
+    column-gap: 20px;
+    row-gap: 20px;
   }
 }
 
@@ -87,10 +87,11 @@ img.a-little-larger {
   .customers {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
+    column-gap: 20px;
   }
 
   .esteemed {
-    font-size: 25px;
+    font-size: 24px;
   }
 }
 </style>

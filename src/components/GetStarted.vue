@@ -92,6 +92,7 @@
   gap: 15px;
   justify-content: center;
   align-items: flex-start;
+  padding-inline: 20px;
 }
 
 .why-remis p {
@@ -126,7 +127,7 @@ img {
   .why-remis {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
+    column-gap: 10px;
     row-gap: 10px;
   }
 }
@@ -157,6 +158,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
     row-gap: 10px;
+    width: 100vw;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
   }
 
   .reconcilation {
@@ -165,13 +170,13 @@ img {
   }
 
   .why-remis p {
-    font-size: 15px;
+    font-size: 10px;
 
   }
 
   .why-remis small {
-    font-size: 12px;
-    width: 180px;
+    font-size: 10px;
+    width: 150px;
   }
 
 
