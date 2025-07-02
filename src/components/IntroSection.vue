@@ -14,8 +14,12 @@
       </p>
 
       <div class="app-links">
-        <img src="../assets/images/link-app-store.png" alt="" />
-        <img src="../assets/images/link-google-store.png" alt="" />
+        <a href="https://apps.apple.com/ng/app/remis-africa/id6443777963">
+          <img src="../assets/images/link-app-store.png" alt="" />
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=africa.remis.app">
+          <img src="../assets/images/link-google-store.png" alt="" />
+        </a>
       </div>
       <div class="ratings">
         <div class="app-store">

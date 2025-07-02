@@ -85,8 +85,7 @@ button {
 }
 
 #logo {
-  width: 50px;
-  height: 50px;
+  width: 80%;
 }
 
 

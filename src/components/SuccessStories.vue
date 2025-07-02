@@ -1,5 +1,5 @@
 <template>
-  <section data-aos="fade-up">
+  <section data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <!-- <div class="stories">
       <div class="card first-item">
         <p>Easy data collation</p>
@@ -38,7 +38,17 @@
       </transition-group>
     </div>
     <div class="take-control">
-      <h2>Take control of your Fleet & Fuel with Remis</h2>
+      <div class="h2-app-links">
+        <h2>Take control of your Fleet & Fuel with Remis</h2>
+        <div class="app-links">
+          <a href="https://apps.apple.com/ng/app/remis-africa/id6443777963">
+            Download on App Store
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=africa.remis.app">
+            Download on Play Store
+          </a>
+        </div>
+      </div>
       <img src="../assets/images/Website laptop mockup 1.svg" alt="Website laptop mockup 1">
     </div>
   </section>
@@ -125,7 +135,7 @@ export default {
   font-weight: 700;
   color: white;
   font-size: 44px;
-  width: 38%;
+  width: 100%;
   line-height: 48px;
 }
 
@@ -147,6 +157,33 @@ section {
   justify-content: start;
   width: 80%;
   margin: 0 auto;
+}
+
+.app-links {
+  display: flex;
+  gap: 20px;
+}
+
+.app-links img {
+  width: 100%;
+}
+
+.h2-app-links {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  border-radius: 5px;
+  background-color: black;
+  color: white !important;
+  padding-inline: 28px;
+  padding-block: 12px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  vertical-align: middle;
+  text-decoration: none;
 }
 
 .card {

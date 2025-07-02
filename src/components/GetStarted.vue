@@ -11,40 +11,40 @@
 
     <h3 id="why">Why Remis?</h3>
     <div class="why-remis">
-      <div class="cash-handling" data-aos="fade-in">
-        <img src="../assets/images/cash.png" alt="cash" />
+      <div class="cash-handling" data-aos="slide-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="../assets/images/cash.png" alt="cash" class="animate__animated animate__bounce" />
         <div class="remis">
           <p>Eliminate Cash Handling</p>
           <small>Say goodbye to fraud and misuse. All transactions are digital and
             traceable.</small>
         </div>
       </div>
-      <div class="monitoring" data-aos="fade-in">
-        <img src="../assets/images/monitoring.png" alt="monitoring" />
+      <div class="monitoring" data-aos="slide-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="../assets/images/monitoring.png" alt="monitoring" class="animate__animated animate__bounce" />
         <div class="remis">
           <p>Real-Time Monitoring</p>
           <small>Track every litre, every driver, and every vehicle as it
             happens.</small>
         </div>
       </div>
-      <div class="oversight" data-aos="fade-in">
-        <img src="../assets/images/oversight.png" alt="oversight" />
+      <div class="oversight" data-aos="slide-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="../assets/images/oversight.png" alt="oversight" class="animate__animated animate__bounce" />
         <div class="remis">
           <p>Powerful Oversight</p>
           <small>Assign fuel budgets, set limits, and review fuel purchase from every
             transaction on the dashboard.</small>
         </div>
       </div>
-      <div class="friendly" data-aos="fade-in">
-        <img src="../assets/images/friendly.png" alt="friendly" />
+      <div class="friendly" data-aos="slide-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="../assets/images/friendly.png" alt="friendly" class="animate__animated animate__bounce" />
         <div class="remis">
           <p>User-Friendly System</p>
           <small>Easy-to-use fuel cards and vouchers that work seamlessly at
             authorized stations.</small>
         </div>
       </div>
-      <div class="reconcilation" data-aos="fade-in">
-        <img src="../assets/images/reconcilation.png" alt="reconcilation" />
+      <div class="reconcilation" data-aos="slide-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="../assets/images/reconcilation.png" alt="reconcilation" class="animate__animated animate__bounce" />
         <div class="remis">
           <p>Instant Reconciliation</p>
           <small>No more chasing reports. Get instant visibility into fuel usage by

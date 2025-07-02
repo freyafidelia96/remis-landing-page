@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="fade-up">
+  <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <p>{{ title }}</p>
     <small>{{ content }}</small>
     <p>{{ name }}</p>

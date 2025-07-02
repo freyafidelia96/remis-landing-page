@@ -1,5 +1,5 @@
 <template>
-  <section id="partners" ref="partners" data-aos="fade-up">
+  <section id="partners" ref="partners" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <p>Some of our Partners Stations</p>
     <div class="logos">
       <img src="../assets/images/NNPC logo.png" alt="NNPC logo" id="nnpc" />
